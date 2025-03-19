@@ -1,0 +1,27 @@
+{
+  "name": "clickfunnels-mcp-framework",
+  "version": "0.0.1",
+  "description": "clickfunnels-mcp-framework MCP server",
+  "type": "module",
+  "bin": {
+    "clickfunnels-mcp-framework": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && mcp-build",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "mcp-framework": "^0.1.29"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}

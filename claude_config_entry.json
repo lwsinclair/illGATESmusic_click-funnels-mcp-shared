@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "clickfunnels-framework": {
+      "command": "node",
+      "args": ["/path/to/clickfunnels-mcp-framework/dist/index.js"],
+      "env": {
+        "PORT": "3002",
+        "CLICKFUNNELS_API_BASE": "https://your-domain.myclickfunnels.com/api/v2",
+        "CLICKFUNNELS_WORKSPACE_ID": "123456",
+        "CLICKFUNNELS_API_TOKEN": "YOUR_API_TOKEN_HERE",
+        "CLICKFUNNELS_WORKSPACE_SUBDOMAIN": "your-subdomain",
+        "NODE_ENV": "production",
+        "MCP_LOG_LEVEL": "debug",
+        "MCP_LOG_TO_CONSOLE": "true",
+        "MCP_LOG_TO_FILE": "true",
+        "MCP_LOG_DIR": "/path/to/clickfunnels-mcp-framework/logs",
+        "NODE_OPTIONS": "--max-old-space-size=256"
+      },
+      "cwd": "/path/to/clickfunnels-mcp-framework"
+    }
+  },
+  "mcpServerConnections": [
+    {
+      "url": "http://localhost:3002/sse"
+    }
+  ]
+} 
