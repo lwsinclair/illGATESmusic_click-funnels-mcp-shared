@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/mcp-mirror-illgatesmusic-click-funnels-mcp-shared-badge.png)](https://mseep.ai/app/mcp-mirror-illgatesmusic-click-funnels-mcp-shared)
+
 # ClickFunnels MCP Framework
 
 This is a Model Context Protocol (MCP) server for integrating ClickFunnels with Claude Desktop.
